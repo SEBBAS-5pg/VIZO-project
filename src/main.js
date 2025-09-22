@@ -1,4 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import VueMasonry from 'vue-masonry-css'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.use(VueMasonry)
+app.mount('#app')
