@@ -1,0 +1,7 @@
+{
+  "name": "VIZO",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
